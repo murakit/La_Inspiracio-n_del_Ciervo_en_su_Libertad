@@ -13,8 +13,8 @@ body {
 
     #frame {
         margin-top: 2%;
-        width: 70%;
-        height: 80%;
+        width: 90%;
+        height: 90%;
         position: fixed;
         z-index: 98;
     }
@@ -24,7 +24,7 @@ body {
     
         position: fixed;
         margin-top: 60px;
-        margin-left: 63%;
+        margin-left: 80%;
         z-index: 99;
     }
 
@@ -34,7 +34,7 @@ body {
     
         position: fixed;
         margin-top: 110px;
-        margin-left: 63%;
+        margin-left: 80%;
         z-index: 99;
     }
 
@@ -59,7 +59,7 @@ body {
     font-family: cursive;
     font-size: 90%;
     position: fixed;
-    margin-top: 470px;
+    margin-top: 102%;
     margin-left: 6%;
     z-index: 99999;
  
