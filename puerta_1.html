@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="icon" type="image/png" href="img/assets/1.jpg" />
+    <title>La inspiración del ciervo en su libertad...</title>
+    <meta name="description" content="">
+    <meta name="author" content="MURAC">
+    <link rel="stylesheet" type="text/css" href="css/lib/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css"  href="css/stylePuerta1.css">
+  </head>
+    <body>
+        <div id="interface">
+        </div>
+
+        <div id="square">
+            <img id="lago" src="img/durero.png">
+        </div>
+
+        <div id="squareTwo">
+        </div>
+        <script>
+
+            var theLeftSide = document.getElementById("squareTwo");  
+            var top_position;
+            var left_position;
+            numberOfFaces = 5;
+
+            function generateFaces() {        
+                for (var i = 0; i < 6; i++) {
+                    top_position = getRandomInt(0, 2000);
+                    left_position = getRandomInt(0, 2000);
+                    createElement(i);
+                    numberOfFaces += numberOfFaces;
+                }
+            } 
+        
+            function placeImage(x)
+            {
+                var div = document.getElementById("squareTwo");
+
+                div.innerHTML = ""; // clear images
+
+                for (counter=1;counter<=x;counter++) {
+                    var imagem=document.createElement("img");
+                    imagem.src="img/madera/floorwood"+counter+".gif";
+                    imagem.id="imgs";
+                    imagem.style.position = 'relative';
+                    imagem.style.top = top_position + "px";
+                    imagem.style.left = left_position + "px";
+                    theLeftSide.appendChild(imagem);
+                }
+            }
+
+            function getRandomInt(min, max) {
+            return Math.floor(Math.random() * (max - min)) + min;
+}
+
+            window.onload = function() {
+                placeImage(12);
+            };
+        </script>
+    </body>
+
+</html>

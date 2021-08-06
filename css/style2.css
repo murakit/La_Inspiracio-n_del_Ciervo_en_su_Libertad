@@ -1,0 +1,61 @@
+body {
+    background-image: url('background2wow.png');
+    background-size: cover;
+}
+
+#interface {
+    width: 50%;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    position: fixed;
+    }
+
+    #frame {
+        margin-top: 2%;
+        width: 40%;
+    }
+
+
+    #button {
+    
+        position: fixed;
+        margin-top: -260px;
+        margin-left: 34%;
+        z-index: 99;
+    }
+
+
+
+    #button2 {
+    
+        position: fixed;
+        margin-top: -200px;
+        margin-left: 34%;
+        z-index: 99;
+    }
+
+    #but {
+        width: 6%;
+        position: fixed;
+    }
+
+   #text {
+       background-color: white;
+       font-family: cursive;
+       font-size: 69%;
+       position: fixed;
+       margin-left: 4%;
+    
+    }
+
+
+   #time {
+    background-color: white;
+    font-family: cursive;
+    font-size: 90%;
+    position: fixed;
+    margin-top: 2%;
+    margin-left: 6%;
+ 
+ }

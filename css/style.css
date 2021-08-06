@@ -1,0 +1,225 @@
+body {
+    background-image: url('background2wow.png');
+    background-size: cover;
+}
+
+#interface {
+    width: 282px;
+    height: 400px;
+    
+    margin-left:-1px;
+    z-index: 98;
+    position: fixed;
+}
+
+#door1 {
+    width: 68px;
+    height: 100px;
+    margin-left:-1px;
+    margin: 15px;
+    z-index: 98;
+    position: fixed;
+}
+
+#one {
+    width: 60px;
+    height: 80px;
+}
+
+/*//////////////////*/
+
+#door2 {
+    width: 68px;
+    height: 100px;
+    margin: 15px;
+
+    margin-left:80px;
+    
+    z-index: 98;
+    position: fixed;
+}
+ 
+#two {
+    width: 60px;
+    height: 80px;
+}
+
+
+/*//////////////////*/
+
+#door3 {
+    width: 68px;
+    height: 100px;
+    margin: 15px;
+    margin-left:145px;
+    z-index: 98;
+    position: fixed;
+}
+
+#three {
+    width: 60px;
+    height: 80px;
+}
+
+/*//////////////////*/
+
+#door4 {
+    width: 68px;
+    height: 100px;
+    margin: 15px;
+    margin-left:212px;
+    z-index: 98;
+    position: fixed;
+}
+
+#four {
+    width: 60px;
+    height: 80px;
+}
+
+/*//////////////////*/
+
+#door5 {
+    width: 68px;
+    height: 100px;
+    margin: 15px;
+    margin-top: 110px;
+    z-index: 98;
+    position: fixed;
+}
+
+#five {
+    width: 60px;
+    height: 80px;
+}
+
+/*//////////////////*/
+
+#door6 {
+    width: 68px;
+    height: 100px;
+    margin: 15px;
+    margin-top: 110px;
+    margin-left:80px;
+    z-index: 98;
+    position: fixed;
+}
+
+#six {
+    width: 60px;
+    height: 80px;
+}
+
+/*//////////////////*/
+
+#door7 {
+    width: 60px;
+    height: 100px;
+    margin: 15px;
+    margin-top: 110px;
+    margin-left:145px;
+    z-index: 98;
+    position: fixed;
+}
+
+#seven {
+    width: 60px;
+    height: 80px;
+}
+
+/*//////////////////*/
+
+#door8 {
+    width: 68px;
+    height: 100px;
+    margin: 15px;
+    margin-top: 110px;
+    margin-left:209px;
+    z-index: 98;
+    position: fixed;
+}
+
+#eight {
+    width: 60px;
+    height: 80px;
+}
+
+
+/*//////////////////*/
+
+#door9 {
+    width: 68px;
+    height: 100px;
+    margin: 15px;
+    margin-top: 205px;
+    margin-left:209px;
+    z-index: 98;
+    position: fixed;
+}
+
+#nine {
+    width: 60px;
+    height: 80px;
+}
+
+/*//////////////////*/
+
+#door10 {
+    width: 68px;
+    height: 100px;
+    margin: 15px;
+    margin-top: 205px;
+    margin-left:145px;
+    z-index: 98;
+    position: fixed;
+}
+
+#ten {
+    width: 60px;
+    height: 80px;
+}
+
+/*//////////////////*/
+
+#door11 {
+    width: 68px;
+    height: 100px;
+    margin: 15px;
+    margin-top: 205px;
+    margin-left:80px;
+    z-index: 98;
+    position: fixed;
+}
+
+#eleven {
+    width: 60px;
+    height: 80px;
+}
+
+/*//////////////////*/
+
+#door12 {
+    width: 68px;
+    height: 100px;
+    margin: 15px;
+    margin-top: 205px;
+    z-index: 98;
+    position: fixed;
+}
+
+#twelve {
+    width: 60px;
+    height: 80px;
+}
+
+
+
+
+#title {
+    margin-top: 310px;
+}
+
+#titulo {
+    width: 280px;
+    height: 60px;  
+}

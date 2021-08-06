@@ -1,0 +1,42 @@
+body {
+    background-image: url('bk.png');
+    background-size: cover;
+}
+
+#interface {
+    width: 282px;
+    height: 400px;
+    border-style: inset;
+    margin-left:-1px;
+    z-index: 98;
+    position: fixed;
+}
+
+
+#square {
+    width: 282px;
+    height: 200px;
+    border-style: inset;
+    margin-left:-1px;
+    z-index: 98;
+    position: fixe
+
+}
+
+#squareTwo {
+    position: relative;
+    width: 300px;
+}
+
+#lago {
+    width: 282px;
+    height: 200px;
+}
+
+#imgs {
+    position: relative;
+
+    width: 37px;
+
+
+}
