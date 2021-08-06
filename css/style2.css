@@ -14,8 +14,9 @@ body {
     #frame {
         margin-top: 2%;
         width: 70%;
-        height: 55%;
+        height: 90%;
         position: fixed;
+        z-index: 98;
     }
 
 
@@ -61,3 +62,20 @@ body {
     margin-left: 6%;
  
  }
+
+/*IMAGES*/
+
+#n1 {
+    width: 300px;
+    margin-top: 2%;
+    position: fixed;
+    z-index: 97;
+}
+
+
+#n2 {
+    width: 300px;
+    height: 20%;
+    margin-top: 200px;
+    position: fixed;
+}
