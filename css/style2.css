@@ -75,7 +75,15 @@ body {
 
 #n2 {
     width: 300px;
-    height: 20%;
-    margin-top: 200px;
+    height: 87%;
+    margin-top: 20px;
     position: fixed;
+}
+
+#audiogen {
+    position: fixed;
+    width: 140px;
+    margin-top: 490px;
+    margin-left: 110px;
+    z-index: 999;
 }
